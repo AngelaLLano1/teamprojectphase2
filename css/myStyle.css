@@ -1,0 +1,73 @@
+
+/*This card-container is used to display the cards horizontally by using display:flex*/
+
+.card-container{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+
+/*The headings of the cards are aligned horizontally using display:flex
+and centered*/
+
+.heading{
+    display:flex;
+}
+.card-header{
+    text-align: center;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  background-color: #ffffff;
+}
+.footer {
+  width: 100%;
+  height: 100px; /* fixed height of the footer */
+  line-height: 60px; /* Vertically center the text */
+  background-color: gray;
+  padding: 10px 20px;
+}
+body {
+    margin-top: 76px;
+}
+.float-right a {
+    color: #000000;
+}
+#email {
+    width: 50%;
+    display: inline;
+}
+
+
+/* Sticky/fixed Navbar/navigation styles
+-------------------------------------------------- */
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+.icon-color {
+    color: #007bff;
+}
+
+/* Youth.html page style*
+---------------------------------------------*/
+.banner {
+    height:20%;
+    background-color:beige;
+}
+@media (max-width: 575.98px) {
+    nav a h1 {
+        font-weight:900;
+        font-size: 14px;
+    }
+    .fa-dumbbell {
+        font-size: 30px;
+    }
+}
