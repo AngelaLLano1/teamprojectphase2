@@ -62,6 +62,26 @@ body {
     height:20%;
     background-color:beige;
 }
+#my_popup {
+    background-color: beige;
+    border: 1px solid #666666;
+    padding: 18px 24px;
+    position: relative;
+}
+.my_popup_close {
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    color: red;
+    background-color: transparent;
+}
+nav a h1 {
+    font-size: 20px;
+}
+nav a h1 i {
+    font-size: 40px;
+}
+
 @media (max-width: 575.98px) {
     nav a h1 {
         font-weight:900;
