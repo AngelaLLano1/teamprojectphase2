@@ -58,69 +58,61 @@
 I inserted a div within the card for the program heading. I named the class "card-header".
 note: I deleted the <h1 Hello World </h1>-->
 
-
-<section>
-   <!--<div class="container">
-  <div class="row">
-    <div class="col">
-      1 of 2
+<div class="container">
+  <div class="card-container row my-5">
+    <div class="card col-sm-4 mb-2" style="width: 18rem;">
+      <div class="card-header">
+      <h5>Youth Program</h5>
+      </div>
+      <a class="basketball" href="pages/youth.html"><img class="card-img-top" src="images/basketball.jpg" alt="Basketball"></a>
+      <div class="card-body">
+        <p class="card-text">We offer a variety of programs for our youth. Basketball, soccer and martial arts.</p>
+      </div>
     </div>
-    <div class="col">
-      2 of 2
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      1 of 3
-    </div>
-    <div class="col">
-      2 of 3
-    </div>
-    <div class="col">
-      3 of 3
-    </div>
-  </div>
-</div>
--->
-<div class="card-container my-5">
-<div class="card" style="width: 18rem;">
-  <div class="card-header">
-    <h5>Youth Program</h5>
-  </div>
-  <a class="basketball" href="pages/youth.html"><img class="card-img-top" src="images/basketball.jpg" alt="Basketball"></a>
-    <div class="card-body">
-    <p class="card-text">We offer a variety of programs for our youth. Basketball Soccer and MartialArts.</p>
-  </div>
-</div>
-
-<div class="card" style="width: 18rem;">
+    <div class="card col-sm-4 mb-2" style="width: 18rem;">
   <div class="card-header">
     <h5>Adult Program</h5>
   </div>
   <a class="Adult" href="pages/adult.html"><img class="card-img-top" src="images/exerciseClass.jpg" alt="adult"></a>
   
   <div class="card-body">
-    <p class="card-text">Our Adult programs Include:Yoga, Cardio and weight Lifting.</p>
+    <p class="card-text">Our Adult programs include yoga, cardio and weight lifting.</p>
   </div>
 </div>
-    
-<div class="card" style="width: 18rem;">
+    <div class="card col-sm-4 mb-2" style="width: 18rem;">
   <div class="card-header">
     <h5>Senior Program</h5>
   </div>
-  <img class="card-img-top" src="images/old-People2.jpg" alt="Card image cap">
+  <a href="pages/senior.html"><img class="card-img-top" src="images/old-People2.jpg" alt="Card image cap"></a>
   <div class="card-body">
-    <p class="card-text">Our Senior programs consist of Yoga, Therapy and Pilates.</p>
+    <p class="card-text">Our Senior programs consist of yoga, therapy and pilates.</p>
   </div>
 </div>
+  </div>
 </div>
-</section>
+<div class="container">
+  <div class="row">
+    <div class="col-12 text-center">
+      <form method="post">
+          <label for="code">How old are you?</label>
+            <select name="cars" id="code">
+              <option value="0" selected="selected">Select Your Age...</option>
+              <option value="10">16 to 23</option>
+              <option value="20">24 to 65</option>
+              <option value="30">Over 66</option>
+                </select>
+          <label>&nbsp;</label><input name="submit" type="submit" id="button" value="GO" class="button" style="cursor:pointer"/>
+      </form>
+            <p id="message"></p>
+    </div>
+  </div>
+</div>
 
   <div class="container my-5">
       <div class="row featurette">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading">Subscribe to Our Newsletter. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.</p>
+            <p class="lead">Enjoy your new workout experience and gain access to everything Healthy LifeStyle at Well Being has to offer today.</p>
              <a class="btn btn-danger my_popup_open" href="#" role="button">Sign Up Here &raquo;</a>
           </div>
           <div class="col-md-5 order-md-1">

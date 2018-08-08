@@ -90,4 +90,12 @@ nav a h1 i {
     .fa-dumbbell {
         font-size: 30px;
     }
+   footer span {
+       line-height: 30px;
+       font-size: 12px;
+   }
+   .float-right {
+       font-size: 12px;
+       line-height: 30px;
+   }
 }
